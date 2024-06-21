@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime page3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="3css.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://en.wikipedia.org/wiki/Naruto" ><img src="anime10.png" ></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="1.html"><b>HOME</b></a></li>
+                    <li><a href="2.html"><b>CREATOR</b></a></li>
+                    <li><a href="3.html"><b>ABOUT</b></a></li>
+                </ul>
+            </div>   
+            
+            <div class="search">
+                <input  class="srch" type="search " style="color: white;"  placeholder="Search">
+                <a href="#"><button class="btn"></button></a>
+            </div>
+        </div>
+        <div class="png">
+            <img src="naruto_standing.png" class="a">
+            <img src="naruto_standing.png" class="b">
+            <div class="png1" >
+
+            </div>
+            
+        </div>
+                
+        <div class="container">
+            <div class="swiper">
+    
+                <div class="swiper-wrapper">
+     
+                    <img src="naruto_full1.webp" class="swiper-slide">
+                       
+                    <img src="naruto_full2.webp" class="swiper-slide">
+                        
+                    <img src="naruto_full3.jpg" class="swiper-slide">
+                        
+                    <img src="naruto_full4.jpg" class="swiper-slide">
+                       
+                    <img src="naruto_full5.png" class="swiper-slide">
+                        
+                </div> 
+   
+                <div class="swiper-pagination"></div>
+  
+  
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+  
+   
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        loop: true,
+      
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          
+        },
+      
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+       
+      });
+</script>
+</body>
+</html>
+
+ <!-- // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        }, -->
