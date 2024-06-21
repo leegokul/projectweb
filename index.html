@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime page1</title>
+   
+    <!-- <script src="jquery.js"></script> -->
+    <link rel="stylesheet" href="1css.css">
+  
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://en.wikipedia.org/wiki/Naruto" ><img src="anime10.png" ></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="1.html"><b>HOME</b></a></li>
+                    <li><a href="2.html"><b>CREATOR</b></a></li>
+                    <li><a href="3.html"><b>ABOUT</b></a></li>
+                </ul>
+            </div>   
+            
+            <div class="search">
+                <input  class="srch" type="search " style="color: white;"  placeholder="Search">
+                <a href="#"><button class="btn"></button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Main Character in Naruto</h2>
+        </div>
+        <section class="slider-container">    
+        <div class="slider-images">
+            <div class="slider-img">
+                <img src="anime2.jpg" alt="1">
+                <h1 style="text-shadow: 4px 1px 3px black;">kakashi hatake</h1>
+                <div class="details">
+                    <h2>Copy ninja </h2><br>
+                    <p><strong><a style="color:blue">Alias: </a>	Kakashi of the Sharinganthe Copy Ninja
+                        <a style="color:blue">>Nickname :</a>	Kakashi of the Sharingan, The Copy Ninja <br>
+                        <a style="color:blue">Title :</a>	Retired Sixth Hokage.<br>
+                        <a style="color:blue">Family :</a>	Sakumo Hatake (father, deceased)</a></strong></p>
+                </div>
+            </div>
+            <div class="slider-img">
+                <img src="anime3.jpg" alt="2">
+                <h1 >pain</h1>
+                <div class="details">
+                    <h2>wara wara wa pain</h2><br>
+                    <p><strong><a style="color:rgb(248, 142, 3)">About : </a>As Pain, he has become serious, aloof, cynical,
+                         brutal and relentless. He believes that the suffering he experienced enlightened him,
+                          making him rise above humanity toward godhood.</strong></p>
+                </div>
+            </div>
+            
+            <div class="slider-img">
+                <img src="anime4.jpg" alt="3">
+                <h1 >naruto</h1>
+                <div class="details">
+                    <h2>naruto uchumaki</h2><br>
+                    <p><strong><a style="color:rgb(239, 255, 11)">Notable relatives  :</a>	Minato Namikaze (father, deceased)
+                        Kushina Uzumaki (mother, deceased)
+                        Jiraiya (godfather, deceased)
+                        Hinata Hyuga (wife)
+                        Boruto Uzumaki (son)
+                        Himawari Uzumaki (daughter)
+                        Kawaki (adoptive son)
+                        Hanabi Hyuga (sister-in-law)
+                        Hizashi Hyuga (uncle-in-law, deceased)
+                        Hiashi Hyuga (father-in-law)
+                        Neji Hyuga (cousin-in-law, deceased)</strong></p>
+                </div>
+            </div>
+            
+            <div class="slider-img active">
+                <img src="anime5.jpg" alt="4" >
+                <h1 >madara</h1>
+                <div class="details">
+                    <h2>ghost of uchiha</h2><br>
+                    <p><strong><a style="color:darkred";text-shadow= "2px 1px 3px white">Relatives	:</a> Uchiha (father)
+                        Izuna Uchiha (brother)<br>
+                        <a style="color:darkred">Ninja status	:</a>Ghost of the Uchiha and Rogue ninja</strong></p>
+                </div>
+            </div>
+
+            <div class="slider-img">
+                <img src="anime6.jpg" alt="5">
+                <h1 >obito</h1>
+                <div class="details">
+                    <h2 >hacker uchiha</h2><br>
+                    <p><strong><a style="color:crimson">Ninja Rank  :</a>	Chunin <br>
+                        <a style="color:crimson">ōjutsu or Kekkei Genkai  :  </a>	Sharingan 
+                        (All Levels) and Mangekyō Sharingan (That he shared with Kakashi Hatake 
+                        before his passing. He was the first one to break through the tsukomi.)</strong></p>
+                </div>
+            </div>
+        
+            <div class="slider-img">
+                <img src="anime7.jpg" alt="6">
+                <h1 >minato</h1>
+                <div class="details">
+                    <h2>yellow flash</h2><br>
+                    <p><strong><a style="color:rgb(239, 255, 11)">Jutsu: </a>Flying Thunder God Technique, Summoning Technique, MORE<br>
+                        <a style="color:rgb(239, 255, 11)">Children: </a>Naruto Uzumaki<br>
+                        <a style="color:rgb(239, 255, 11)">Notable aliases: </a>Fourth Hokage, Minato</strong></p>
+                </div>
+            </div>
+
+            <div class="slider-img">
+                <img src="anime8.jpg" alt="7">
+                <h1 >sasuke</h1>
+                <div class="details">
+                    <h2>brother of itachi</h2><br>
+                    <p><strong><a style="color:rgb(235, 9, 216);">Notable relatives:</a>Itachi Uchiha (older brother, deceased)
+                        Sakura Uchiha (wife)
+                        Sarada Uchiha (daughter)</strong></p>
+                </div>
+            </div>    
+        </div>
+        </section>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>   
+</body>
+</html>
